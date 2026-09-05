@@ -65,26 +65,43 @@ Featuring a streamlined graphical user interface constructed via `tkinter`, Cybe
 ```bash
 git clone [https://github.com/void-syntax/cyberpass-generator.git](https://github.com/void-syntax/cyberpass-generator.git)
 cd cyberpass-generator
-2. Launch Application
-Bash
-python main.py
-3. Binary Compilation (Optional)
+```
+
+### 2. Launch Application (GUI)
+```bash
+python generator.py
+```
+
+### 3. Launch Prototype (CLI)
+```bash
+python prototype.py
+```
+
+### 4. Binary Compilation (Optional)
 To package the utility into a standalone, single-file binary executable:
 
-Bash
+```bash
 pip install pyinstaller
-pyinstaller --onefile --noconsole main.py
-The compiled executable will be stored inside the generated dist/ directory.
+pyinstaller --onefile --noconsole generator.py
+```
+The compiled executable will be stored inside the generated `dist/` directory.
 
-📂 Project Structure
-Plaintext
+---
+
+## 📂 Project Structure
+
+```text
 cyberpass-generator/
 │
 ├── generator.py     # Core application logic & Tkinter interface
-├── README.md        # Project documentation
 ├── prototype.py     # Terminal-based CLI execution prototype
+├── README.md        # Project documentation
 └── .gitignore       # Git version control exclusion rules
-👨‍💻 Author
-void-syntax
+```
 
-GitHub: https://github.com/void-syntax
+---
+
+## 👨‍💻 Author
+
+**void-syntax**  
+GitHub: [https://github.com/void-syntax](https://github.com/void-syntax)
