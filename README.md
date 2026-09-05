@@ -63,7 +63,7 @@ Featuring a streamlined graphical user interface constructed via `tkinter`, Cybe
 
 ### 1. Repository Clone
 ```bash
-git clone [https://github.com/void-syntax/cyberpass-generator.git](https://github.com/void-syntax/cyberpass-generator.git)
+git clone https://github.com/void-syntax/cyberpass-generator.git
 cd cyberpass-generator
 ```
 
