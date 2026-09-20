@@ -44,7 +44,7 @@ Featuring a streamlined graphical user interface constructed via `tkinter`, Cybe
 
 | Security Domain | Standard Implementations | **CyberPass Generator** |
 | :--- | :--- | :--- |
-| **Entropy Engine** | `` **`secrets` module (Hardware CSPRNG)** |
+| **Entropy Engine** | Standard `random` module (Pseudo-RNG) | **`secrets` module (Hardware CSPRNG)** |
 | **Predictability** | Vulnerable to state recovery attacks | **Cryptographically strong & non-deterministic** |
 | **Buffer Integrity** | Standard editable `Entry` widgets | **Locked `readonly` State Management** |
 | **Input Validation** | Unhandled TypeErrors & runtime crashes | **Try-Except Range Enforcement** |
