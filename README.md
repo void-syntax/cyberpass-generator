@@ -23,7 +23,7 @@
 
 ## ⚡ Technical Overview
 
-**CyberPass Generator** is a lightweight desktop security tool engineered to synthesize high-entropy, cryptographically safe passwords. Designed to overcome the vulnerabilities of standard pseudo-random number generators (PRNGs)—such as Python's default `random` module (Mersenne Twister)—CyberPass leverages kernel-level cryptographic primitives to ensure resistance against pattern prediction, dictionary compilation, and automated brute-force attacks.
+**CyberPass Generator** is a lightweight desktop security tool engineered to synthesize high-entropy, cryptographically safe passwords. Designed to overcome the vulnerabilities of standard pseudo-random number generators (PRNGs)—such as Python's default `secrets` module (Mersenne Twister)—CyberPass leverages kernel-level cryptographic primitives to ensure resistance against pattern prediction, dictionary compilation, and automated brute-force attacks.
 
 Featuring a streamlined graphical user interface constructed via `tkinter`, CyberPass operates with zero external dependencies, delivering rapid execution and full cross-platform compatibility out of the box.
 
@@ -44,7 +44,7 @@ Featuring a streamlined graphical user interface constructed via `tkinter`, Cybe
 
 | Security Domain | Standard Implementations | **CyberPass Generator** |
 | :--- | :--- | :--- |
-| **Entropy Engine** | `random` module (Deterministic PRNG) | **`secrets` module (Hardware CSPRNG)** |
+| **Entropy Engine** | `` **`secrets` module (Hardware CSPRNG)** |
 | **Predictability** | Vulnerable to state recovery attacks | **Cryptographically strong & non-deterministic** |
 | **Buffer Integrity** | Standard editable `Entry` widgets | **Locked `readonly` State Management** |
 | **Input Validation** | Unhandled TypeErrors & runtime crashes | **Try-Except Range Enforcement** |
