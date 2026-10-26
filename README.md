@@ -77,9 +77,6 @@ python generator.py
 python prototype.py
 ```
 
-### 4. Binary Compilation (Optional)
-To package the utility into a standalone, single-file binary executable:
-
 ```bash
 pip install pyinstaller
 pyinstaller --onefile --noconsole generator.py
